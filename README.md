@@ -1,24 +1,27 @@
-# IR Academy Public Monitor
+# IR Academy Public Website
 
-Mobile-first, read-only disclosure calendar for seven listed footwear and apparel peers.
+Public GitHub Pages build of the IR Academy source website.
 
 ## Public scope
 
-- Previous disclosed round and next expected/official round
-- Announcement date, Beijing time where available, and days before/after today
-- Official IR or clearly labeled market-calendar source links
-- Seven-company profiles
+- Dashboard
+- Earnings Library
+- Listening
+- Knowledge Base
+- Company Profiles
+- Daily Check-in interface
+- Disclosure calendar
 
-The public site intentionally excludes internal learning-library content, transcripts, translations, vocabulary review, processing queues, local paths, and administrative actions.
+The page structure and visual system are shared with the private IR Academy source. The public build replaces the local API with a read-only static data snapshot; write actions and local synchronization remain private.
 
 ## Deployment
 
-GitHub Pages deploys the prebuilt static files from site/ through .github/workflows/deploy-pages.yml.
+GitHub Pages deploys the prebuilt static files from `site/` through `.github/workflows/deploy-pages.yml`.
 
-Public URL after Pages is enabled:
+Public URL:
 
 https://xavier-viv.github.io/ir-academy-public/
 
-## Updating the calendar
+## Updating information
 
-Rebuild the sanitized public monitor in the private IR workspace, copy the resulting dist/pages/ files into site/, then commit and push.
+Rebuild the public snapshot and site in the private IR workspace, copy the resulting `dist/pages/` files into `site/`, then commit and push. This refreshes information without changing the page structure.
