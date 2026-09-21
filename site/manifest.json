@@ -1,0 +1,21 @@
+{
+  "name": "IR Academy",
+  "short_name": "IR Academy",
+  "description": "海外消费品牌 IR 电话会学习库、听力训练与公告日历",
+  "start_url": "./#/mobile",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fcfbf7",
+  "theme_color": "#261b02",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "ir-audio-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "finance", "productivity"]
+}
